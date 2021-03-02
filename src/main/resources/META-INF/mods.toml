@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+[[mods]] #mandatory
+modId="roninmod" #mandatory
+version="1.0" #mandatory
+displayName="R0n1n Mod" #mandatory
+credits="A R0n1n por existir" #optional
+authors="Carlettos" #optional
+description='''
+Literalmente solo añade a R0nin.
+'''
+[[dependencies.examplemod]] #optional
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
